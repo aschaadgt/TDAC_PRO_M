@@ -80,6 +80,7 @@ TDAC_PRO_M
 2. Ejecutar los siguientes comandos en la terminal:
 
 javac -d . src/tdac_pro_m/*.java
+
 java tdac_pro_m.TDAC_PRO_M
 
 ▶️ 3.3.3. Ejecutar el proyecto  
