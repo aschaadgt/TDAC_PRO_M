@@ -1,0 +1,7 @@
+# Ignorar archivos compilados
+/build/
+/*.class
+
+# Ignorar configuraciones de NetBeans
+/nbproject/private/
+/nbproject/build-impl.xml
