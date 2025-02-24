@@ -68,20 +68,26 @@ TDAC_PRO_M
 
 ---
 
-🌐 3.3. En Replit (Ejecutar en la nube)  
+🌐 3.3. En Replit (Ejecutar en la nube)
 
 🚀 3.3.1. Importar el repositorio desde GitHub  
 1. Ir a [Replit](https://replit.com).  
 2. Seleccionar "Importar desde GitHub".  
 3. Ingresar la URL del repositorio.  
 
-⚙️ 3.3.2. Configurar el archivo `.replit`  
-1. Crear o editar el archivo `.replit` con el siguiente contenido:  
-   run = "javac tdac_pro_m/*.java && java tdac_pro_m.TDAC_PRO_M"  
-   language = "java"  
+⚙️ 3.3.2. Compilar y ejecutar manualmente  
+1. Abrir la consola en Replit.  
+2. Ejecutar los siguientes comandos en la terminal:
+
+javac -d . src/tdac_pro_m/*.java
+java tdac_pro_m.TDAC_PRO_M
 
 ▶️ 3.3.3. Ejecutar el proyecto  
-1. Hacer clic en el botón "Run".  
+1. Cada vez que se hagan cambios en el código, repetir los comandos anteriores en la terminal para compilar y ejecutar.  
+2. No es necesario configurar `.replit`, ya que la ejecución automática no funciona correctamente.  
+
 
 ---
-Angel Schaad.24/02/2025
+Angel Schaad. 
+Guatemala City.
+24/02/2025
